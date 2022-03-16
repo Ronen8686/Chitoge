@@ -47,7 +47,7 @@ export default class Command extends BaseCommand {
         user.split("@")[0]
       }*, I'm Elaina.\n\nMy prefix is - "${
         this.client.config.prefix
-      }"\n\nThe usable commands are listed below.\n\n`;
+      }"\n\nThe usable commands are listed below and plz ask the mod if you want to add bot in your gc.\n\n`;
       const keys = Object.keys(categories);
       for (const key of keys)
         text += `*━━━❰ ${this.client.util.capitalize(
